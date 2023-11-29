@@ -1,13 +1,63 @@
+.us-map {
+  z-index: -1;
+}
+  
+path:hover,
+circle:hover {
+  stroke: #227da7 !important;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  fill: #028fcc !important;
+  cursor: pointer;
+}
+  
+#path67 {
+  fill: none !important;
+  stroke: #2cb3f0 !important;
+  cursor: default;
+}
+  
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #212121;
+  color: #ffffff;
+  border: 0px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: arial;
+}
+   
+
+  
+#map{
+  background-image: url("img/NCFL/the\ map\ \(1\).jpg");
+  height: 600px;
+  width: 900px;
+}
+
+.navbg{
+  background-color: rgb(0, 0, 61);
+}
+
+.footbg{
+  background-color: rgb(0, 0, 61);
+}
+
+.btnclr{
+  background-color: rgb(0, 0, 61);     
+  color: white;
+}
+
 .logo{
+  height: 40px;
+  width: 40px;
+}
+
+.teamlogo{
     height: 40px;
     width: 40px;
-}
-.navbg {
-    background-color: rgb(0, 0, 61);
-}
-.footbg{
-    background-color: rgb(0, 0, 61);
-}
-.btnclr{
-    background-color: rgb(0, 0, 61);
 }
