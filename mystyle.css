@@ -39,14 +39,17 @@ circle:hover {
   width: 900px;
 }
 
+/* BACKGROUND COLOR FOR NAVBAR */
 .navbg{
   background-color: rgb(0, 0, 61);
 }
 
+/* BACKGROUND COLOR FOR FOOTER */
 .footbg{
   background-color: rgb(0, 0, 61);
 }
 
+/* BUTTON COLOR FOR NAVBAR DROPDOWN */
 .btnclr{
   background-color: rgb(0, 0, 61);     
   color: white;
@@ -57,7 +60,28 @@ circle:hover {
   width: 40px;
 }
 
+/* LOGOS ON MAP */
 .teamlogo{
     height: 40px;
     width: 40px;
+}
+
+/* lOGO SIZE FOR SCORES AT TOP OF HOMEPAGE */
+.lvsclogo {
+  height: 30px;
+  width: 40px;
+}
+
+/* BAKCGOURND BEHIND SCORES AT TOP OF HOMEPAGE */
+.backg {
+  background-color: rgb(255,253,208);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+  width: 950px;
 }
