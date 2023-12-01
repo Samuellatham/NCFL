@@ -55,11 +55,6 @@ circle:hover {
   color: rgba(255, 255, 255, 0.493);
 }
 
-.logo{
-  height: 40px;
-  width: 40px;
-}
-
 /* LOGOS ON MAP */
 .teamlogo{
     height: 40px;
@@ -72,16 +67,15 @@ circle:hover {
   width: 40px;
 }
 
-/* BAKCGOURND BEHIND SCORES AT TOP OF HOMEPAGE */
-.backg {
-  background-color: rgb(255,253,208);
+/* GRADIENT SCALE BACKGROUNDS OF PAGES AND SCORE CARDS */
+.gradient {
+  background-image: linear-gradient(to bottom right, white, rgb(233,227,198));
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 400px;
-  width: 950px;
+/* STYLE FORMATTING FOR SCORE CARDS */
+.styl {
+  background-image: linear-gradient(to right,rgb(0, 0, 250),rgb(0, 0, 61));
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
