@@ -67,15 +67,20 @@ circle:hover {
   width: 40px;
 }
 
-/* GRADIENT SCALE BACKGROUNDS OF PAGES AND SCORE CARDS */
+/* GRADIENT SCALE BACKGROUNDS OF PAGES */
 .gradient {
   background-image: linear-gradient(to bottom right, white, rgb(233,227,198));
 }
 
+/* BACKGROUND OF SCORES */
+.backg {
+  background-color: rgb(0, 0, 61);
+}
+
 /* STYLE FORMATTING FOR SCORE CARDS */
 .styl {
-  background-image: linear-gradient(to right,rgb(0, 0, 250),rgb(0, 0, 61));
-  color: white;
+  background-color:  rgb(233,227,198);
+  color: black;
   font-size: large;
   font-weight: bold;
 }
