@@ -34,9 +34,9 @@ circle:hover {
 
   
 #map{
-  background-image: url("");
-  height: 600px;
-  width: 900px;
+  background-image: url("img/NCFL/the\ map.jpg");
+  height: 492px;
+  width: 718px;
 }
 
 /* BACKGROUND COLOR FOR NAVBAR */
@@ -83,4 +83,19 @@ circle:hover {
   color: black;
   font-size: large;
   font-weight: bold;
+}
+
+/*sticky navbar*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* logo placement*/
+.bells {
+  border-top: 100px;
+  border-bottom: 100px;
+  border-right: 150px;
+  border-left: 80px;
 }
