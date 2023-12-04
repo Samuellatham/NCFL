@@ -99,3 +99,19 @@ circle:hover {
   border-right: 150px;
   border-left: 80px;
 }
+
+/* HEADER FONT FOR TEAM PAGES */
+.hs {
+  font-size: 150px;
+}
+
+/* BACKGROUND IMAGES FOR TEAM PAGE HEADERS */
+.mhwbg {
+  background-image: url("img/NCFL/UTAH/MHWbg.jpg");
+}
+
+/* SIZE OF LOGOS ON TEAM PAGES */
+.size {
+  height: 200px;
+  width: 200px;
+}
