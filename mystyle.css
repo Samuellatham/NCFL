@@ -1,7 +1,7 @@
 .us-map {
   z-index: -1;
 }
-  
+
 path:hover,
 circle:hover {
   stroke: #227da7 !important;
@@ -10,13 +10,13 @@ circle:hover {
   fill: #028fcc !important;
   cursor: pointer;
 }
-  
+
 #path67 {
   fill: none !important;
   stroke: #2cb3f0 !important;
   cursor: default;
 }
-  
+
 #info-box {
   display: none;
   position: absolute;
@@ -30,35 +30,35 @@ circle:hover {
   padding: 15px;
   font-family: arial;
 }
-   
 
-  
-#map{
+
+
+#map {
   background-image: url("img/NCFL/the\ map.jpg");
   height: 492px;
   width: 718px;
 }
 
 /* BACKGROUND COLOR FOR NAVBAR */
-.navbg{
+.navbg {
   background-color: rgb(0, 0, 61);
 }
 
 /* BACKGROUND COLOR FOR FOOTER */
-.footbg{
+.footbg {
   background-color: rgb(0, 0, 61);
 }
 
 /* BUTTON COLOR FOR NAVBAR DROPDOWN */
-.btnclr{
-  background-color: rgb(0, 0, 61);     
+.btnclr {
+  background-color: rgb(0, 0, 61);
   color: rgba(255, 255, 255, 0.493);
 }
 
 /* LOGOS ON MAP */
-.teamlogo{
-    height: 40px;
-    width: 40px;
+.teamlogo {
+  height: 40px;
+  width: 40px;
 }
 
 /* lOGO SIZE FOR SCORES AT TOP OF HOMEPAGE */
@@ -69,7 +69,7 @@ circle:hover {
 
 /* GRADIENT SCALE BACKGROUNDS OF PAGES */
 .gradient {
-  background-image: linear-gradient(to bottom right, white, rgb(233,227,198));
+  background-image: linear-gradient(to bottom right, white, rgb(233, 227, 198));
 }
 
 /* BACKGROUND OF SCORES */
@@ -79,7 +79,7 @@ circle:hover {
 
 /* STYLE FORMATTING FOR SCORE CARDS */
 .styl {
-  background-color:  rgb(233,227,198);
+  background-color: rgb(233, 227, 198);
   color: black;
   font-size: large;
   font-weight: bold;
@@ -103,15 +103,87 @@ circle:hover {
 /* HEADER FONT FOR TEAM PAGES */
 .hs {
   font-size: 150px;
-}
-
-/* BACKGROUND IMAGES FOR TEAM PAGE HEADERS */
-.mhwbg {
-  background-image: url("img/NCFL/UTAH/MHWbg.jpg");
+  text-size-adjust: fill;
 }
 
 /* SIZE OF LOGOS ON TEAM PAGES */
 .size {
   height: 200px;
-  width: 200px;
+  width: 180px;
+}
+
+/* BACKGROUND IMAGES FOR MHW HEADER */
+.imgbg {
+  background-image: url("img/NCFL/UTAH/MHWbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR BBB HEADER */
+.imgbg2 {
+  background-image: url("img/NCFL/TEXAS/BBBbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 350px) {
+
+  /* HEADER FONT FOR TEAM PAGES */
+  .hs {
+    font-size: 25px;
+  }
+
+  /* SIZE OF LOGOS ON TEAM PAGES */
+  .size {
+    height: 40px;
+    width: 38px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+
+  /* HEADER FONT FOR TEAM PAGES */
+  .hs {
+    font-size: 25px;
+  }
+
+  /* SIZE OF LOGOS ON TEAM PAGES */
+  .size {
+    height: 40px;
+    width: 38px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  /* HEADER FONT FOR TEAM PAGES */
+  .hs {
+    font-size: 55px;
+  }
+
+  /* SIZE OF LOGOS ON TEAM PAGES */
+  .size {
+    height: 65px;
+    width: 63px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+
+  /* HEADER FONT FOR TEAM PAGES */
+  .hs {
+    font-size: 85px;
+  }
+
+  /* SIZE OF LOGOS ON TEAM PAGES */
+  .size {
+    height: 100px;
+    width: 95px;
+  }
 }
