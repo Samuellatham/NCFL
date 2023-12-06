@@ -112,8 +112,80 @@ circle:hover {
   width: 180px;
 }
 
+/* PLAYER PROFILE ON TEAM PAGES */
+.profile {
+  height: 200px;
+  width: 150px;
+}
+
+.cbg {
+  background-color: rgb(255, 255, 255);
+  animation-name: colorchange;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    background-color: rgb(0, 0, 61);
+  }
+
+  10% {
+    background-color: rgb(0, 0, 155);
+  }
+
+  20% {
+    background-color: rgb(0, 0, 61);
+  }
+
+  30% {
+    background-color: rgb(0, 0, 155);
+  }
+
+  40% {
+    background-color: rgb(0, 0, 61);
+  }
+
+  50% {
+    background-color: rgb(0, 0, 155);
+  }
+
+  60% {
+    background-color: rgb(0, 0, 61);
+  }
+
+  70% {
+    background-color: rgb(0, 0, 155);
+  }
+
+  80% {
+    background-color: rgb(0, 0, 61);
+  }
+
+  90% {
+    background-color: rgb(0, 0, 155);
+  }
+
+  100% {
+    background-color: rgb(0, 0, 61);
+  }
+}
+
+ /* TEXT ON TEAM PAGE */
+.pagetext {
+  font-size: large;
+}
+
+
+
+
+
+
+/* BACKGROUND IMAGES FOR TEAM PAGE HEADERS */
+
 /* BACKGROUND IMAGES FOR MHW HEADER */
-.imgbg {
+.imgbg1 {
   background-image: url("img/NCFL/UTAH/MHWbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
