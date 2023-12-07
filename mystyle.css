@@ -193,7 +193,105 @@ circle:hover {
 
 /* BACKGROUND IMAGES FOR BBB HEADER */
 .imgbg2 {
-  background-image: url("img/NCFL/TEXAS/BBBbg.jpg");
+  background-image: url("img/NCFL/WASHINGTON/BBBbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR FG HEADER */
+.imgbg3 {
+  background-image: url("img/NCFL/TENNESSEE/FGbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR KISS HEADER */
+.imgbg4 {
+  background-image: url("img/NCFL/PENNSYLVANIA/HKbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR LVR HEADER */
+.imgbg5 {
+  background-image: url("img/NCFL/NORTH-CAROLINA/LVRbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR SAND HEADER */
+.imgbg6 {
+  background-image: url("img/NCFL/FLORIDA/SANDbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR TK HEADER */
+.imgbg7 {
+  background-image: url("img/NCFL/ALABAMA/TKbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR WITCH HEADER */
+.imgbg8 {
+  background-image: url("img/NCFL/NEW-JERSEY/WITCHbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR WIZ HEADER */
+.imgbg9 {
+  background-image: url("img/NCFL/GEORGIA/WIZbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR YGI HEADER */
+.imgbg10 {
+  background-image: url("img/NCFL/VIRGINIA/YGIbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR DDD HEADER */
+.imgbg11 {
+  background-image: url("img/NCFL/TEXAS/DDDbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR DOC HEADER */
+.imgbg12 {
+  background-image: url("img/NCFL/CANADA/DOCbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR SKIS HEADER */
+.imgbg13 {
+  background-image: url("img/NCFL/CALIFORNIA/SJSbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR SNAKES HEADER */
+.imgbg14 {
+  background-image: url("img/NCFL/MONTANA/SNAKEbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR  HEADER */
+.imgbg15 {
+  background-image: url("img/NCFL/NEW-MEXICO/TCLbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BACKGROUND IMAGES FOR WC HEADER */
+.imgbg16 {
+  background-image: url("img/NCFL/IDAHO/");
   background-repeat: no-repeat;
   background-size: cover;
 }
