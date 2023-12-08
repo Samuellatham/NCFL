@@ -14,3 +14,4 @@ Loading Screen
 Gradient Scale for Background (cream)
 Create Appropirate README Page
 Adjust each page for different devices
+fix imgaes to %
