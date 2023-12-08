@@ -172,10 +172,75 @@ circle:hover {
   }
 }
 
- /* TEXT ON TEAM PAGE */
+/* TEXT ON TEAM PAGE */
 .pagetext {
   font-size: large;
 }
+
+.hof {
+  height: 300px;
+  width: 200px;
+}
+
+.gradient2 {
+  background-color: rgb(255, 255, 255);
+  animation-name: colorchange2;
+  animation-duration: 15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange2 {
+  0% {
+    background-color: rgb(252, 252, 122);
+  }
+
+  10% {
+    background-color: gold;
+  }
+
+  20% {
+    background-color: rgb(252, 252, 122);
+  }
+
+  30% {
+    background-color: gold;
+  }
+
+  40% {
+    background-color: rgb(252, 252, 122);
+  }
+
+  50% {
+    background-color: gold;
+  }
+
+  60% {
+    background-color: rgb(252, 252, 122);
+  }
+
+  70% {
+    background-color: gold;
+  }
+
+  80% {
+    background-color: rgb(252, 252, 122);
+  }
+
+  90% {
+    background-color: gold;
+  }
+
+  100% {
+    background-color: rgb(252, 252, 122);
+  }
+}
+
+
+
+
+
+
 
 
 
@@ -297,11 +362,7 @@ circle:hover {
 }
 
 
-
-
-
-
-
+/* MEDIA QUERIES */
 @media screen and (min-width: 350px) {
 
   /* HEADER FONT FOR TEAM PAGES */
