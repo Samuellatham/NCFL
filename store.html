@@ -12,187 +12,105 @@
 
 <body class="gradient">
 
-  <nav class="navbar navbar-dark navbar-expand navbg sticky-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="store.html">Store</a>
-          </li>
-          <div class="dropdown">
-            <button class="btn btnclr dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Teams
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="wmhw.html">Mexican Hat Wearers</a></li>
-              <li><a class="dropdown-item" href="eFG.html">Finger Guns</a></li>
-              <li><a class="dropdown-item" href="wDOC.html"> Medicine Hat Doctors</a></li>
-              <li><a class="dropdown-item" href="eKISS.html">Hershey Kisses</a></li>
-              <li><a class="dropdown-item" href="eSAND.html">Mayo Sandwhiches</a></li>
-              <li><a class="dropdown-item" href="eWITCH.html">Salem Witches</a></li>
-              <li><a class="dropdown-item" href="eWIZ.html">Willacoochie Wizards</a></li>
-              <li><a class="dropdown-item" href="wSNAKES.html">Anaconda Snakes</a></li>
-              <li><a class="dropdown-item" href="wSKIS.html">Skidoo Jet Skis</a></li>
-              <li><a class="dropdown-item" href="eYGI.html">Yogaville Instructors</a></li>
-              <li><a class="dropdown-item" href="eLVR.html">Love Valley Roses</a></li>
-              <li><a class="dropdown-item" href="eTK.html">Talledega Knights</a></li>
-              <li><a class="dropdown-item" href="wTCL.html">Truth or Consequences Lyres</a></li>
-              <li><a class="dropdown-item" href="wDDD.html">Ding Dong Ditchers</a></li>
-              <li><a class="dropdown-item" href="wWC.html">Wood Chips</a></li>
-              <li><a class="dropdown-item" href="wBELL.html">Big Bottom Bell Bottoms</a></li>
-            </ul>
-          </div>
-          <li>
-            <img width="50" height="50" src="img/NCFL/Logos/NCFL.png">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="standings.html">Standings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="map.html">Map</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="rules.html">Rules</a>
-          </li>
-        </ul>
-      </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark navbg sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="store.html">Store</a>
+        </li>
+        <div class="dropdown">
+          <button class="btn btnclr dropdown-toggle txt" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Teams
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="wmhw.html">Mexican Hat Wearers</a></li>
+            <li><a class="dropdown-item" href="eFG.html">Finger Guns</a></li>
+            <li><a class="dropdown-item" href="wDOC.html"> Medicine Hat Doctors</a></li>
+            <li><a class="dropdown-item" href="eKISS.html">Hershey Kisses</a></li>
+            <li><a class="dropdown-item" href="eSAND.html">Mayo Sandwhiches</a></li>
+            <li><a class="dropdown-item" href="eWITCH.html">Salem Witches</a></li>
+            <li><a class="dropdown-item" href="eWIZ.html">Willacoochie Wizards</a></li>
+            <li><a class="dropdown-item" href="wSNAKES.html">Anaconda Snakes</a></li>
+            <li><a class="dropdown-item" href="wSKIS.html">Skidoo Jet Skis</a></li>
+            <li><a class="dropdown-item" href="eYGI.html">Yogaville Instructors</a></li>
+            <li><a class="dropdown-item" href="eLVR.html">Love Valley Roses</a></li>
+            <li><a class="dropdown-item" href="eTK.html">Talledega Knights</a></li>
+            <li><a class="dropdown-item" href="wTCL.html">Truth or Consequences Lyres</a></li>
+            <li><a class="dropdown-item" href="wDDD.html">Ding Dong Ditchers</a></li>
+            <li><a class="dropdown-item" href="wWC.html">Wood Chips</a></li>
+            <li><a class="dropdown-item" href="wBELL.html">Big Bottom Bell Bottoms</a></li>
+          </ul>
+        </div>
+        <li>
+          <img width="50" height="50" src="img/NCFL/Logos/NCFL.png">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="standings.html">Standings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="map.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt" aria-current="page" href="rules.html">Rules</a>
+        </li>
+      </ul>
     </div>
   </nav>
   <br>
 
   
   <!-- CAROUSEL 1 -->
-  <div class="container col-11">
+  <div id="store" class="container col-11">
     <h3>NCFL Merch</h3>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row">
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img  id="clothes" src="img/merch/ncfl_backpack-removebg-preview.png" class="card-img-top" alt="Backpack">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$89.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/ncfl_crop-removebg-preview.png" class="card-img-top" alt="Crop Top">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$25.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/stickers_ncfl-removebg-preview.png" class="card-img-top" alt="Stickers">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$11.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/beanie_ncfl-removebg-preview.png" class="card-img-top" alt="beanie">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$17.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/white_wl_ncfl-removebg-preview.png" class="card-img-top" alt="Hoodie">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$39.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/flag_ncfl-removebg-preview.png" class="card-img-top" alt="Flag">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$105.99</p>
             </div>
           </div>
         </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -207,46 +125,46 @@
 
   
   <!-- CAROUSEL 2 -->
-  <div class="container col-11">
+  <div id="store" class="container col-11">
     <h3>Team Merch</h3>
     <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row">
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/beanie_for_knights-removebg-preview.png" class="card-img-top" alt="Knights">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$17.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/black_wl-removebg-preview.png" class="card-img-top" alt="Hoodie">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$39.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/guns-removebg-preview.png" class="card-img-top" alt="Guns">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$32.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/mug-removebg-preview.png" class="card-img-top" alt="Mug">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$8.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/lanyard-removebg-preview.png" class="card-img-top" alt="lanyard">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$4.99</p>
             </div>
           </div>
           <div class="card col-2 bg-transparent" style="width: 18rem;">
-            <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+            <img id="clothes" src="img/merch/mexican_hat_duffle-removebg-preview.png" class="card-img-top" alt="duffle">
             <div class="card-body">
-              <p class="card-text text-center text-nowrap">$$$</p>
+              <p class="card-text text-center text-nowrap">$75.99</p>
             </div>
           </div>
         </div>
@@ -254,79 +172,39 @@
         <div class="carousel-item">
           <div class="row">
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/lyres_hat-removebg-preview.png" class="card-img-top" alt="Hat">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$23.99</p>
               </div>
             </div>
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/wizard_shorts-removebg-preview.png" class="card-img-top" alt="shorts">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$19.99</p>
               </div>
             </div>
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/shoe-removebg-preview.png" class="card-img-top" alt="Shoes">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$65.99</p>
               </div>
             </div>
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/rose_pants-removebg-preview.png" class="card-img-top" alt="pants">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$41.99</p>
               </div>
             </div>
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/tank_top-removebg-preview.png" class="card-img-top" alt="tank">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$22.99</p>
               </div>
             </div>
             <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
+              <img id="clothes" src="img/merch/bomber_jacket-removebg-preview.png" class="card-img-top" alt="Bomber">
               <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
-              </div>
-            </div>
-            <div class="card col-2 bg-transparent" style="width: 18rem;">
-              <img src="img/NCFL/Logos/doctors.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center text-nowrap">$$$</p>
+                <p class="card-text text-center text-nowrap">$119.99</p>
               </div>
             </div>
           </div>
