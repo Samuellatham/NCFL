@@ -380,7 +380,19 @@ circle:hover {
     height: 150px;
     width: 200px;
   }
+
+  
 }
+
+@media screen and (max-width: 349px) {
+  /* HOF PICTURES */
+  .hof {
+    height: 80px;
+    width: 40px;
+  }
+  
+}
+
 
 @media screen and (min-width: 350px) {
 
@@ -394,7 +406,18 @@ circle:hover {
     height: 40px;
     width: 38px;
   }
+
+  /* HOF PICTURES */
+  .hof {
+    height: 100px;
+    width: 50px;
+  }
   
+   /* PLAYER PROFILE ON TEAM PAGES */
+  .profile {
+    height: 80px;
+    width: 80px;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -412,6 +435,18 @@ circle:hover {
   .bracket {
     height: 400px;
     width: 600px;
+  }
+
+  /* HOF PICTURES */
+  .hof {
+    height: 180px;
+    width: 115px;
+  }
+
+   /* PLAYER PROFILE ON TEAM PAGES */
+   .profile {
+    height: 120px;
+    width: 100px;
   }
 }
 
@@ -432,6 +467,23 @@ circle:hover {
     height: 600px;
     width: 900px;
   }
+
+  /* HOF PICTURES */
+  .hof {
+    height: 280px;
+    width: 180px;
+  }
+
+    /* PLAYER PROFILE ON TEAM PAGES */
+  .profile {
+    height: 200px;
+    width: 170px;
+  }
+
+  #clothes{
+    height: 300px;
+    width: 270px;
+  }
 }
 
 .rulelist{
@@ -446,4 +498,8 @@ circle:hover {
 #pollos{
   height: 75px;
   width: 60px;
+}
+
+#store p{
+  font-weight: bold;
 }
