@@ -489,6 +489,12 @@ circle:hover {
   .tt {
     display: none;
   }
+
+  /* VIDEO ON HOME PAGE */
+  .vid2 {
+    height: 50px;
+    width: 100px;
+  }
 }
 
 @media screen and (min-width: 350px) {
@@ -553,6 +559,11 @@ circle:hover {
     text-wrap: nowrap;
   }
 
+  /* VIDEO ON HOME PAGE */
+  .vid2 {
+    height: 100px;
+    width: 150px;
+  }
 }
 
 /* TEXT ON TOP OF PAGES */
@@ -623,6 +634,12 @@ circle:hover {
     font-size: 30px;
     text-wrap: nowrap;
   }
+
+  /* VIDEO ON HOME PAGE */
+  .vid2 {
+    height: 200px;
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 1050px) {
@@ -685,6 +702,12 @@ circle:hover {
   .sstxt {
     font-size: 35px;
     text-wrap: nowrap;
+  }
+
+  /* VIDEO ON HOME PAGE */
+  .vid2 {
+    height: 320px;
+    width: 550px;
   }
 }
 
