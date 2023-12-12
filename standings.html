@@ -12,95 +12,325 @@
 
 <body class="gradient">
 
+	<div class="container-fluid rulelist backk">
+		<br>
+		<div class="row">
+			<div class="col-3"></div>
+			<div class="col-6">
+				<h1 class="text-center text-white" id="rulehead">SEASON STANDINGS</h1>
+			</div>
+			<div class="col-3"></div>
+		</div>
+		<br>
+	</div>
+
 	<!-- NAVBAR -->
 	<nav class="navbar navbar-expand-md navbar-dark navbg sticky-top">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-		  <ul class="navbar-nav">
-			<li class="nav-item">
-			  <a class="nav-link txt" aria-current="page" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link txt" aria-current="page" href="store.html">Store</a>
-			</li>
-			<div class="dropdown">
-			  <button class="btn btnclr dropdown-toggle txt" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-				aria-haspopup="true" aria-expanded="false">
-				Teams
-			  </button>
-			  <ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="wmhw.html">Mexican Hat Wearers</a></li>
-				<li><a class="dropdown-item" href="eFG.html">Finger Guns</a></li>
-				<li><a class="dropdown-item" href="wDOC.html"> Medicine Hat Doctors</a></li>
-				<li><a class="dropdown-item" href="eKISS.html">Hershey Kisses</a></li>
-				<li><a class="dropdown-item" href="eSAND.html">Mayo Sandwhiches</a></li>
-				<li><a class="dropdown-item" href="eWITCH.html">Salem Witches</a></li>
-				<li><a class="dropdown-item" href="eWIZ.html">Willacoochie Wizards</a></li>
-				<li><a class="dropdown-item" href="wSNAKES.html">Anaconda Snakes</a></li>
-				<li><a class="dropdown-item" href="wSKIS.html">Skidoo Jet Skis</a></li>
-				<li><a class="dropdown-item" href="eYGI.html">Yogaville Instructors</a></li>
-				<li><a class="dropdown-item" href="eLVR.html">Love Valley Roses</a></li>
-				<li><a class="dropdown-item" href="eTK.html">Talledega Knights</a></li>
-				<li><a class="dropdown-item" href="wTCL.html">Truth or Consequences Lyres</a></li>
-				<li><a class="dropdown-item" href="wDDD.html">Ding Dong Ditchers</a></li>
-				<li><a class="dropdown-item" href="wWC.html">Wood Chips</a></li>
-				<li><a class="dropdown-item" href="wBELL.html">Big Bottom Bell Bottoms</a></li>
-			  </ul>
-			</div>
-			<li>
-			  <img width="50" height="50" src="img/NCFL/Logos/NCFL.png">
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link txt" aria-current="page" href="standings.html">Standings</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link txt" aria-current="page" href="map.html">Map</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link txt" aria-current="page" href="rules.html">Rules</a>
-			</li>
-		  </ul>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link txt" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link txt" aria-current="page" href="store.html">Store</a>
+				</li>
+				<div class="dropdown">
+					<button class="btn btnclr dropdown-toggle txt" type="button" id="dropdownMenuButton"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Teams
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="wmhw.html">Mexican Hat Wearers</a></li>
+						<li><a class="dropdown-item" href="eFG.html">Finger Guns</a></li>
+						<li><a class="dropdown-item" href="wDOC.html"> Medicine Hat Doctors</a></li>
+						<li><a class="dropdown-item" href="eKISS.html">Hershey Kisses</a></li>
+						<li><a class="dropdown-item" href="eSAND.html">Mayo Sandwhiches</a></li>
+						<li><a class="dropdown-item" href="eWITCH.html">Salem Witches</a></li>
+						<li><a class="dropdown-item" href="eWIZ.html">Willacoochie Wizards</a></li>
+						<li><a class="dropdown-item" href="wSNAKES.html">Anaconda Snakes</a></li>
+						<li><a class="dropdown-item" href="wSKIS.html">Skidoo Jet Skis</a></li>
+						<li><a class="dropdown-item" href="eYGI.html">Yogaville Instructors</a></li>
+						<li><a class="dropdown-item" href="eLVR.html">Love Valley Roses</a></li>
+						<li><a class="dropdown-item" href="eTK.html">Talledega Knights</a></li>
+						<li><a class="dropdown-item" href="wTCL.html">Truth or Consequences Lyres</a></li>
+						<li><a class="dropdown-item" href="wDDD.html">Ding Dong Ditchers</a></li>
+						<li><a class="dropdown-item" href="wWC.html">Wood Chips</a></li>
+						<li><a class="dropdown-item" href="wBELL.html">Big Bottom Bell Bottoms</a></li>
+					</ul>
+				</div>
+				<li>
+					<img width="50" height="50" src="img/NCFL/Logos/NCFL.png">
+				</li>
+				<li class="nav-item">
+					<a class="nav-link txt" aria-current="page" href="standings.html">Standings</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link txt" aria-current="page" href="map.html">Map</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link txt" aria-current="page" href="rules.html">Rules</a>
+				</li>
+			</ul>
 		</div>
-	  </nav>
+	</nav>
 
-
+	<!-- SEASON STANDING BRACKET -->
 	<div class="container col-12">
 		<div class="row justify-content-center">
-			
-				<img class="bracket" src="img/NCFL/Untitled (1).png">
-			
-			
+			<img class="bracket" src="img/NCFL/Untitled (1).png">
 		</div>
-
-
 	</div>
+
+	<!-- WEST AND EAST TITLES -->
+	<div class="container">
+		<div class="row">
+			<div class="col-5">
+				<h1 class="text-center titleclr">WEST</h1>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-5">
+				<h1 class="text-center titleclr">EAST</h1>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<!-- TEAM CARDS -->
+	<div class="container">
+		<div class="row">
+			<!-- WEST -->
+			<div class="col-5">
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/ding dong.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 1st</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/mexican hat.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 2nd</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/doctors.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 3rd</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/bell bottoms.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 4th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/jetski.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 5th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/chips.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 6th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/snakes.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 7th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/lyres.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 8th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+			<!-- END OF WEST -->
+
+			<div class="col-2"></div>
+			
+			<!-- EAST -->
+			<div class="col-5">
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/knights.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 1st</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/wizard.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 2nd</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/finger guns.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 3rd</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/kisses.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 4th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/sandwich 2.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 5th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/rose.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 6th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/yoga instructors.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 7th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+				<br>
+				<div class="row cbg">
+					<div class="col-1"></div>
+					<div class="col-4">
+						<img class="sslogo" src="img/NCFL/Logos/witches logo.png" alt="">
+					</div>
+					<div class="col-1"></div>
+					<div class="col-5">
+						<h4 class="text-center text-white">Rank: 8th</h4>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			</div>
+			<!-- END OF EAST -->
+		</div>
+	</div>
+
 	<footer class="footbg text-white mt-5">
 		<div class="container">
-		  <div class="row">
-			<div class="col-md-6">
-			  <h4>Contact Us</h4>
-			  <p>Email: contact.us@ncfl.com</p>
-			  <p>Phone: 1-800-458-7809</p>
-			  <p>@ncfl.2023 on IG and X</p>
-			  <img id="pollos" src="img/Pollos Hermanos.png" alt="Los Pollos Hermanos">
-			</div>
-			<div class="col-md-6">
-			  <h4>Questions?</h4>
-			  <br>
-			  <form>
-				<div class="form-group">
-				  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-				  <br>
-				  <input class="btn btn-primary float-left" type="submit" value="Submit">
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Contact Us</h4>
+					<p>Email: contact.us@ncfl.com</p>
+					<p>Phone: 1-800-458-7809</p>
+					<p>@ncfl.2023 on IG and X</p>
+					<img id="pollos" src="img/Pollos Hermanos.png" alt="Los Pollos Hermanos">
 				</div>
-			  </form>
-		  </div>
-		  <hr class="my-4">
-		  <p>&copy; 2023 Your Website. All rights reserved.</p>
-		</div>
-	  </footer>
+				<div class="col-md-6">
+					<h4>Questions?</h4>
+					<br>
+					<form>
+						<div class="form-group">
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							<br>
+							<input class="btn btn-primary float-left" type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+				<hr class="my-4">
+				<p>&copy; 2023 Your Website. All rights reserved.</p>
+			</div>
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
