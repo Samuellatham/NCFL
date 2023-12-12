@@ -149,11 +149,6 @@ circle:hover {
   font-weight: bold;
 }
 
-/* TEAM LOGOS ON SEASON STANDINGS PAGE */
-.sslogo {
-  height: 80px;
-  width: 80px;
-}
 
 
 
@@ -496,13 +491,6 @@ circle:hover {
   }
 }
 
-/* TEXT ON TOP OF PAGES */
-@media screen and (max-width: 500px) {
-  #rulehead {
-    font-size: 15px;
-  }
-}
-
 @media screen and (min-width: 350px) {
 
   /* HEADER FONT FOR TEAM PAGES */
@@ -551,6 +539,26 @@ circle:hover {
   /* PRICES ON STORE */
   .tt {
     font-size: 8px;
+  }
+
+  /* TEAM LOGOS ON SEASON STANDINGS PAGE */
+  .sslogo {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* RANK TEXT ON STANDINGS PAGE */
+  .sstxt {
+    font-size: 15px;
+    text-wrap: nowrap;
+  }
+
+}
+
+/* TEXT ON TOP OF PAGES */
+@media screen and (max-width: 500px) {
+  #rulehead {
+    font-size: 15px;
   }
 }
 
@@ -603,6 +611,18 @@ circle:hover {
   .tt {
     font-size: 15px;
   }
+
+  /* TEAM LOGOS ON SEASON STANDINGS PAGE */
+  .sslogo {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* RANK TEXT ON STANDINGS PAGE */
+  .sstxt {
+    font-size: 30px;
+    text-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 1050px) {
@@ -653,6 +673,18 @@ circle:hover {
   /* PRICES ON STORE */
   .tt {
     font-size: 20px;
+  }
+
+  /* TEAM LOGOS ON SEASON STANDINGS PAGE */
+  .sslogo {
+    height: 70px;
+    width: 70px;
+  }
+
+  /* RANK TEXT ON STANDINGS PAGE */
+  .sstxt {
+    font-size: 35px;
+    text-wrap: nowrap;
   }
 }
 
