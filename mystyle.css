@@ -112,19 +112,20 @@ circle:hover {
 .pagetext {
   font-size: large;
 }
- /* HOF PIC SIZE */
+
+/* HOF PIC SIZE */
 .hof {
   height: 300px;
   width: 200px;
 }
 
 .backk {
-  background-color:  rgb(233, 227, 198);
+  background-color: rgb(233, 227, 198);
 }
 
 /* WIDER SCREEN NEEDED TEXT ON MAP PAGE */
 .peeee {
-  color:  rgb(0, 0, 61);
+  color: rgb(0, 0, 61);
 }
 
 /* RULES PAGE */
@@ -134,7 +135,7 @@ circle:hover {
 
 /* EAST AND WEST TITLES ON STANDINGS PAGE */
 .titleclr {
-  color:  rgb(0, 0, 61);
+  color: rgb(0, 0, 61);
   font-size: 50px;
 }
 
@@ -148,6 +149,12 @@ circle:hover {
 #store p {
   font-weight: bold;
 }
+
+/* DROPDOWN SIZE AND SCROLL */
+.dropdown-menu {
+  max-height: 250px;
+  overflow-y: scroll;
+  }
 
 
 
@@ -282,43 +289,43 @@ circle:hover {
   }
 
   10% {
-    background-color:white;
+    background-color: white;
   }
 
   20% {
-    background-color:rgb(233, 227, 198);
+    background-color: rgb(233, 227, 198);
   }
 
   30% {
-    background-color:white;
+    background-color: white;
   }
 
   40% {
-    background-color:rgb(233, 227, 198);
+    background-color: rgb(233, 227, 198);
   }
 
   50% {
-    background-color:white;
+    background-color: white;
   }
 
   60% {
-    background-color:rgb(233, 227, 198);
+    background-color: rgb(233, 227, 198);
   }
 
   70% {
-    background-color:white;
+    background-color: white;
   }
 
   80% {
-    background-color:rgb(233, 227, 198);
+    background-color: rgb(233, 227, 198);
   }
 
   90% {
-    background-color:white;
+    background-color: white;
   }
 
   100% {
-    background-color:rgb(233, 227, 198);
+    background-color: rgb(233, 227, 198);
   }
 }
 
@@ -455,20 +462,27 @@ circle:hover {
 
   /* HOF PICTURES */
   .hof {
-    height: 80px;
-    width: 40px;
+    height: 100px;
+    width: 60px;
   }
 
   /* VIDEO SIZE */
   .vid {
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 180px;
   }
 
   /* PLAYER PROFILE ON TEAM PAGES */
   .profile {
-    height: 100px;
-    width: 80px;
+    height: 65px;
+    width: 50px;
+  }
+
+  /* WILLIE ON HOME PAGE */
+  .profile2 {
+    height: 120px;
+    width: 150px;
+    text-align: center;
   }
 
   /* SEASON STANDINGS BRACKET */
@@ -477,24 +491,45 @@ circle:hover {
     width: 200px;
   }
 
+  /* VIDEO ON HOME PAGE */
+  .vid2 {
+    height: 100px;
+    width: 180px;
+  }
+
+  /* TEAM LOGOS ON SEASON STANDINGS PAGE */
+  .sslogo {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* RANK TEXT ON STANDINGS PAGE */
+  .sstxt {
+    font-size: 15px;
+    text-wrap: nowrap;
+  }
+
   /* MERCH */
   #clothes {
-    height: 15px;
-    width: 13px;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0%;
+  }
+
+  /* SNAKES PANTS */
+  #clothes2 {
+    height: 80px;
+    width: 100px;
     display: block;
     margin: 0%;
   }
 
   /* PRICES ON STORE */
   .tt {
-    display: none;
-  }
+    font-size: 15px;
+  }  
 
-  /* VIDEO ON HOME PAGE */
-  .vid2 {
-    height: 50px;
-    width: 100px;
-  }
 }
 
 @media screen and (min-width: 350px) {
@@ -512,20 +547,26 @@ circle:hover {
 
   /* HOF PICTURES */
   .hof {
-    height: 100px;
-    width: 50px;
+    height: 140px;
+    width: 90px;
   }
 
   /* PLAYER PROFILE ON TEAM PAGES */
   .profile {
-    height: 80px;
+    height: 100px;
     width: 80px;
+  }
+
+  /* WILLIE ON HOME PAGE */
+  .profile2 {
+    height: 250px;
+    width: 275px;
   }
 
   /* VIDEO SIZE */
   .vid {
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
   }
 
   /* SEASON STANDINGS BRACKET */
@@ -536,15 +577,23 @@ circle:hover {
 
   /* MERCH */
   #clothes {
-    height: 25px;
-    width: 23px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0%;
+  }
+
+  /* SNAKES PANTS */
+  #clothes2 {
+    height: 100px;
+    width: 140px;
     display: block;
     margin: 0%;
   }
 
   /* PRICES ON STORE */
   .tt {
-    font-size: 8px;
+    font-size: 25px;
   }
 
   /* TEAM LOGOS ON SEASON STANDINGS PAGE */
@@ -561,8 +610,13 @@ circle:hover {
 
   /* VIDEO ON HOME PAGE */
   .vid2 {
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
+  }
+
+  /* FONT IN NAVBAR DROPDOWN */
+  .droptext {
+    font-size: 5px;
   }
 }
 
@@ -570,6 +624,21 @@ circle:hover {
 @media screen and (max-width: 500px) {
   #rulehead {
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  /* WILLIE ON HOME PAGE */
+  .profile2 {
+    height: 60px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  /* STORE FOR BIG SCREEN */
+  .store1 {
+    visibility: hidden;
   }
 }
 
@@ -604,10 +673,24 @@ circle:hover {
     width: 100px;
   }
 
+  /* WILLIE ON HOME PAGE */
+  .profile2 {
+    height: 80px;
+    width: 100px;
+  }
+
   /* VIDEO SIZE */
   .vid {
     height: 200px;
     width: 330px;
+  }
+
+  /* MERCH */
+  #clothes {
+    height: 90px;
+    width: 80px;
+    display: block;
+    margin: 0%;
   }
 
   /* MERCH */
@@ -631,7 +714,7 @@ circle:hover {
 
   /* RANK TEXT ON STANDINGS PAGE */
   .sstxt {
-    font-size: 30px;
+    font-size: 25px;
     text-wrap: nowrap;
   }
 
@@ -639,6 +722,11 @@ circle:hover {
   .vid2 {
     height: 200px;
     width: 350px;
+  }
+
+  /* STORE FOR SMALLER SCREEN */
+  .store2 {
+    display: none;
   }
 }
 
@@ -671,6 +759,12 @@ circle:hover {
   .profile {
     height: 200px;
     width: 170px;
+  }
+
+  /* WILLIE ON HOME PAGE */
+  .profile2 {
+    height: 110px;
+    width: 160px;
   }
 
   /* MERCH */
@@ -709,6 +803,11 @@ circle:hover {
     height: 320px;
     width: 550px;
   }
+
+  /* STORE FOR SMALLER SCREEN */
+  .store2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1099px) {
@@ -742,9 +841,3 @@ circle:hover {
     display: none;
   }
 }
-
-
-
-
-
-
